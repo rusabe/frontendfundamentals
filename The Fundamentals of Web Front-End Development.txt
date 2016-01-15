@@ -1,0 +1,70 @@
+The Fundamentals of Web Front-End Development
+=============================================
+HTML + CSS + BootStrap + JavaScript + JQuery
+
+---------------------------------------------
+HTML Essentials
+---------------------------------------------
+Head -> Para poner el título e incluir los css + scripts
+Dentro del body:
+    <h1> ... --> <h6> Los títulos (heads)
+    <p> --> Parágrafo
+** www.lipsum.com --> Para crear dummy text
+
+HTML Attributes
+---------------------------------------------
+Attributes proveen de información adicional sobre los elementos HTML
+Separar los estilos a archivos CSS
+
+HTML Tags
+---------------------------------------------
+DIV ->  Define una división o sección en un documentl HTML
+        Se usa para agrupar bloques de elementos para formatearlos con css
+SPAN -> Para agrupar elementos en línea en un documento. "En línea" <-> elementos que están en la misma línea
+        No provee un cambio visual por si mismo
+        Proporciona una manera de agregar un gancho a una parte de un texto o una parte de un documento.
+A ->    Define un hyperlink usado para ir de una página a otra
+        Su elemento más importante es el href que dice a que página irá
+IMG ->  Define una imágene en una página HTML
+        Tiene dos atributos obligatorios src y alt
+TABLE ->Se organizan por filas (TR - Rows) y celdas (TD - Cells)
+
+UL ->   Lista No-Ordenada. Define una lista (bulleted) no ordenada
+        Se debe usar con el tag li que define los elementos de la lista
+OL ->   Lista Ordenada. Define una lista ordenada (numérica o alfabética)
+        Se debe usar con el tag li que define los elementos de la lista
+
+A SIMPLE WEB PAGE
+---------------------------------------------
+Una página simple tiene un esquema básico:
+Header con el title, Barra de navegación, Contenido, Footer
+
+---------------------------------------------
+CSS Essentials (Hojas de estilos en cascadas)
+---------------------------------------------
+Te ahorra mucho trabajo porque un solo CSS puede controlar multiples webpages
+
+Syntaxis:
+ Selector { declaración }
+ El selector puede ser de tipo de elementos o con un id # o con una clase .
+
+BOX MODEL
+---------------------------------------------
+Margin -- Border -- Padding -- Content -- Padding -- Border -- Margin
+
+Display - Position - Z-Index
+---------------------------------------------
+Display : Es la propiedad más importante de CSS para controlar el diseño. Cada elemento de HTML tiene un valor de dislay dependiendo de que tipo de elemento es. La mayoría de elementos por defecto tienen block o inline.
+
+Position: Especifica el método de posicionamiento para un elemento (static, absolute, fixed)
+    - static : los elementos se renderizan en orden, tal y como aparecen en el flujo del documento.
+    - absolute : El elemento se posiciona relativo al primer posicionamiento (no static) de su elemento antepasado
+    - fixed : El elemento se posiciona relativo a la ventana del navegador.
+    - relative : El elemento se posiciona relativo a su posición normal. 
+    - initial : Establece esta propiedad a su valor por defecto.
+    - inherit : Hereda la propiedad de su elemento parent.
+
+z-index: Especifica el orden de la pila de un elemento. Un elemento con valor más alto aparecerá al frente de uno con valor más bajo.
+El z-index solo funciona con elementos posicionados (absolute, relative, fixed) (no con elementos estáticos)
+
+float: Especifica si el elemento debe flotar o no. La propiedad clear se usa para controlar el comportamiento de los elementos flotantes. Los elementos posicionados con absolute ignoran el float.

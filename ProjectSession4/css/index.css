@@ -1,0 +1,160 @@
+body{
+    margin:0;
+    padding: 0;
+    height: 100%;
+    font-family: Verdana;
+}
+#content{
+    margin-top: 30px;
+}
+#navigationBarUL{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width:100%;
+    z-index: 99;
+}
+#navigationBarUL li{
+    float: left;
+}
+#navigationBarUL li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#navigationBarUL li a:hover {
+    background-color: #555;
+    color: white;
+}
+#navigationBarUL .active{
+    background-color: #4CAF50;
+}
+#home{
+    background-image: url("../images/masnou-background.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 100%;
+    height: 720px;
+}
+#divH1{
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 40px;
+}
+h1{
+    margin:40px auto auto auto;
+    padding:0;
+    width:40%;
+}
+#home .infoLinksContainer{
+    list-style-type: none;
+    margin: 100px auto auto auto;
+    width:40%;
+    display: table;
+}
+#home .infoLinks{
+    color: white;
+    background-color: #4CAF50;
+    margin:15px;
+    padding: 15px;
+    float:left;
+
+}
+#home .infoLinks a{
+    color: white;
+    text-decoration: none;
+}
+#home .infoLinks:hover {
+    background-color: #555;
+}
+#about{
+    color: black;
+    background-image: url("../images/masnou-background-2.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 100%;
+    height: 720px;
+    margin: 0;
+}
+#aboutContainer{
+    display:inline-block;
+}
+#aboutBox{
+    padding: 10px;
+    margin: 220px auto auto auto;
+    background-color: #FEF5CA;
+    width: 40%;
+    border-radius: 15px;
+    font-size: 0.75em;
+}
+#portfolio{
+    color: black;
+    background-image: url("../images/masnou-background-3.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 100%;
+    height: 720px;
+    margin: 0;
+}
+#portfolioContainer{
+    display:inline-block;
+    width:100%;
+}
+.imageContent{
+    width: 20%;
+    height: 20%;
+    display: block;
+}
+.image{
+    width: 100%;
+    height: 100%;
+}
+#image1{
+    margin: 140px 40px 0px 610px;
+
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+}
+
+#image2{
+    margin: 75px 0px 0px 450px;
+    -ms-transform: rotate(353deg); /* IE 9 */
+    -webkit-transform: rotate(353deg); /* Chrome, Safari, Opera */
+    transform: rotate(353deg);
+}
+
+#contact{
+    color: black;
+    background-image: url("../images/masnou-background-4.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 100%;
+    height: 720px;
+    margin: 0;
+}
+#contactContainer{
+    display:inline-block;
+    width:100%;
+}
+#contactBox{
+    color:white;
+    margin: 35% auto auto auto;
+    width: 20%;
+    text-align: center;
+}
+#contactBox a{
+    color:white;
+    font-size: 1.2em;
+
+}

@@ -1,0 +1,46 @@
+body {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+p {
+
+}
+
+#para {
+    color:blue;
+    text-align: left;
+
+    font-family: sans-serif, arial, black;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+a:link {
+    color:red;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color:purple;
+}
+
+.bordered{
+    border: solid;
+    border-color: red;
+    padding: 10px;
+    width: 20%;
+    display:block;
+    margin:auto;
+    max-height: 100px;
+    overflow: auto;
+}
+.div_block{
+    width:100px;
+    height: 70px;
+    background-color: yellow;
+    position: absolute;
+    bottom: 10px;
+}
