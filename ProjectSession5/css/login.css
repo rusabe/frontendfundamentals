@@ -1,4 +1,10 @@
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+  background-color: #eee;
+}
+
 .form-wrapper{
     width: 50%;
-    margin: auto;
+    margin: 80px auto auto auto;
 }

@@ -1,0 +1,10 @@
+body{
+    background-color: #eee;
+}
+.container-detail{
+    margin:auto;
+    width: 80%;
+}
+.featurette{
+    margin-top: 50px;
+}

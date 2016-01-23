@@ -1,0 +1,19 @@
+body{
+    background-color: #eee;
+}
+.table{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+.product-list-item{
+    margin:auto;
+    width: 125px;
+    height: 125px;
+}
+.table thead{
+    background-color: #99ff99;
+}
+.table tbody>tr>td.icon{
+    vertical-align: middle;
+}

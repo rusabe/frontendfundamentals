@@ -68,3 +68,11 @@ z-index: Especifica el orden de la pila de un elemento. Un elemento con valor m�
 El z-index solo funciona con elementos posicionados (absolute, relative, fixed) (no con elementos estáticos)
 
 float: Especifica si el elemento debe flotar o no. La propiedad clear se usa para controlar el comportamiento de los elementos flotantes. Los elementos posicionados con absolute ignoran el float.
+
+---------------------------------------------
+Bootstrap
+---------------------------------------------
+Es una colección de herramientas libre-open source para crear websites y aplicaciones web.
+Contiene plantillas HTML y CSS así como extensiones JavaScript.
+Su objtico es facilitar el desarrollo de webs dinámicas.
+Bootstrap es un framework de front end, esto es, una interfaz para el usuario.
