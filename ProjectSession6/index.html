@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Free code Camp</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+<h1>Free code camp</h1>
+<div class="container">
+    <div class="cointanerhalf">
+        <div>Break Length</div>
+        <div><span id="minusBreak" onclick="subtractBreak();">-</span> <span id="breakValue">1</span> <span id="moreBreak" onclick="addBreak();">+</span></div>
+    </div>
+    <div class="cointanerhalf">
+        <div>Session Length</div>
+        <div><span id="minusSession" onclick="subtractSession();">-</span> <span id="sessionValue">1</span> <span id="moreSession" onclick="addSession();">+</span></div>
+    </div>
+</div>
+<div class="container">
+    <div class="timer" id="timer">
+        <div><span id="minute">00</span> : <span id="second">00</span> : <span id="hundredsofsecond"> 00</span></div>
+        <div class="button"><button onclick="start();">Start</button></div>
+        <div class="button"><button onclick="stop();">Stop</button></div>
+
+    </div>
+</div>
+<div class="container">
+    <div class="timerProgress"></div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript" src="js/index.js"></script>
