@@ -21,24 +21,40 @@ function subtractSession(){
 }
 
 var second = document.getElementById("second").innerHTML;
+var minute;
+var hundredsofsecond;
 var interval;
 function start(){
+    hundredsofsecond = 100;
     second = 60;
+
     interval = setInterval(function(){
-        if(second>0)
+        hundredsofsecond--;
+        if(hundredsofsecond<10)
         {
-            second--;
-            if(second<10)
+            hundredsofsecond = "0" + hundredsofsecond;
+        }
+
+        document.getElementById("hundredsofsecond").innerHTML = hundredsofsecond;
+        if(hundredsofsecond == 99)
+        {
+            if(second>0)
             {
-                second = "0" + second;
+                second--;
+                if(second<10)
+                {
+                    second = "0" + second;
+                }
+                document.getElementById("second").innerHTML = second;
             }
-            document.getElementById("second").innerHTML = second;
         }
-        else{
+        
+
+
+        if(hundredsofsecond == 0 && second == 0){
             clearInterval(interval);
-        }
-        console.log('I');
-    }, 1000);
+        }        
+    }, 10);
 }
 
 function stop(){
