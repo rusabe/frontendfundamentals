@@ -28,7 +28,16 @@ h1{
     height: 360px;
     width: 360px;
     margin: auto;
+    position: relative;
 }
 .button{
     display: inline;
+}
+#isBreak{
+    position: absolute;
+    top: 50%;
+    left:38%;
+    display: block;
+    width: 64px;
+    margin: 0 auto;
 }
