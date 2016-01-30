@@ -1,0 +1,29 @@
+.searchBox{
+    margin: auto;
+    padding-top: 120px;
+    width:80%;
+}
+#keyword{
+    width: 90%;
+    display: inline-block;
+}
+#btnSearch{
+    display: inline;
+}
+
+.resultBox{
+    margin: auto;
+    padding-top: 40px;
+    width:80%;
+}
+
+.resultBox ul li{
+    padding-top: 10px;
+    list-style-type: none;
+    font-family: Courier;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
