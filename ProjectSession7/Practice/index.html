@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ajax Examples</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $("#btnTest").click(function(){
+            var url = 'http://www.freecodecamp.com/news/hot'
+            $("#test").load(url, function(response, status, xhr){
+                var data = JSON.parse(response);
+
+                if(status == 'success'){
+                    alert('¡Ya ta!');
+                }
+            });
+        });
+    });
+    </script>
+</head>
+<body>
+<p id="test">Aqu&iacute; ir&aacute; el texto</p>
+<button id="btnTest">Click Here</button>
+</body>
+</html>
